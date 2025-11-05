@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TileFloatingMiddle_0: 1559097236478027967
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

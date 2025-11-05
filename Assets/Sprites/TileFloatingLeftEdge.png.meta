@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TileFloatingLeftEdge_0: -1255844591672961854
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
