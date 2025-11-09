@@ -1846,6 +1846,8 @@ GameObject:
   - component: {fileID: 65266638}
   - component: {fileID: 65266637}
   - component: {fileID: 65266636}
+  - component: {fileID: 65266640}
+  - component: {fileID: 65266639}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -1955,6 +1957,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 65266634}
   m_CullTransparentMesh: 1
+--- !u!114 &65266639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65266634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!114 &65266640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65266634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 2
+    m_Right: 2
+    m_Top: 2
+    m_Bottom: 2
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandHeight: 0
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!4 &66938056 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6252450479920582661, guid: c99b8050983b105488bac50eb3786b7f, type: 3}
@@ -10574,9 +10616,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54fefdfd57776c847a37539caabf891c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  question: What is My Name
-  answerA: AAA
-  answerB: BBB
+  question: "T\xEDch l\u0169y t\u01B0 b\u1EA3n ch\u1EE7 y\u1EBFu t\u1EEB gi\xE1 tr\u1ECB
+    th\u1EB7ng d\u01B0."
+  answerA: "\u0110\xFAng"
+  answerB: Sai
   choicePanel: {fileID: 0}
   doorA: {fileID: 0}
   doorB: {fileID: 0}
@@ -10673,9 +10716,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54fefdfd57776c847a37539caabf891c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  question: What is My Name
-  answerA: AAA
-  answerB: BBB
+  question: "Khi c\xF4ng ty t\u0103ng n\u0103ng su\u1EA5t nh\u01B0ng l\u01B0\u01A1ng
+    kh\xF4ng t\u0103ng, l\u1EE3i nhu\u1EADn c\u1EE7a h\u1ECD s\u1EBD:"
+  answerA: "T\u0103ng l\xEAn "
+  answerB: "Gi\u1EA3m xu\u1ED1ng"
   choicePanel: {fileID: 1683981497}
   doorA: {fileID: 0}
   doorB: {fileID: 638449548}
@@ -16509,9 +16553,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54fefdfd57776c847a37539caabf891c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  question: What is My Name
-  answerA: AAA
-  answerB: BBB
+  question: "Khi b\u1EA1n d\xF9ng l\u1EE3i nhu\u1EADn ki\u1EBFm \u0111\u01B0\u1EE3c
+    \u0111\u1EC3 m\u1EDF th\xEAm c\u1EEDa h\xE0ng, \u0111\xF3 l\xE0: "
+  answerA: "M\u1EDF r\u1ED9ng s\u1EA3n xu\u1EA5t"
+  answerB: "Gi\u1EEF nguy\xEAn quy m\xF4"
   choicePanel: {fileID: 1683981497}
   doorA: {fileID: 212933724}
   doorB: {fileID: 1813755782}
@@ -21318,9 +21363,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54fefdfd57776c847a37539caabf891c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  question: What is My Name
-  answerA: AAA
-  answerB: BBB
+  question: "Trong c\xE1ch m\u1EA1ng c\xF4ng nghi\u1EC7p 4.0, c\u1EA1nh tranh t\u01B0
+    b\u1EA3n ch\u1EE7 ngh\u0129a d\u1EABn \u0111\u1EBFn \u0111\u1ED9c quy\u1EC1n
+    ch\u1EE7 y\u1EBFu qua h\xECnh th\u1EE9c n\xE0o? "
+  answerA: "T\u1EADp trung s\u1EA3n xu\u1EA5t v\xE0 t\u01B0 b\u1EA3n "
+  answerB: "Ph\xE2n t\xE1n r\u1EE7i ro kinh t\u1EBF"
   choicePanel: {fileID: 0}
   doorA: {fileID: 0}
   doorB: {fileID: 0}
@@ -21551,9 +21598,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54fefdfd57776c847a37539caabf891c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  question: What is My Name
-  answerA: AAA
-  answerB: BBB
+  question: "Trong kh\u1EE7ng ho\u1EA3ng kh\xED h\u1EADu to\xE0n c\u1EA7u, m\xE2u
+    thu\u1EABn gi\u1EEFa l\u1EF1c l\u01B0\u1EE3ng s\u1EA3n xu\u1EA5t v\xE0 quan h\u1EC7
+    s\u1EA3n xu\u1EA5t theo M\xE1c bi\u1EC3u hi\u1EC7n qua?"
+  answerA: "Khai th\xE1c t\xE0i nguy\xEAn v\xF4 h\u1EA1n"
+  answerB: "R\xE0o c\u1EA3n t\u1EEB s\u1EDF h\u1EEFu t\u01B0 nh\xE2n"
   choicePanel: {fileID: 0}
   doorA: {fileID: 0}
   doorB: {fileID: 0}
@@ -26010,9 +26059,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54fefdfd57776c847a37539caabf891c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  question: What is My Name
-  answerA: AAA
-  answerB: BBB
+  question: "Ai l\xE0 ng\u01B0\u1EDDi tr\u1EF1c ti\u1EBFp t\u1EA1o ra c\u1EE7a c\u1EA3i
+    v\u1EADt ch\u1EA5t trong x\xE3 h\u1ED9i? "
+  answerA: "Nh\xE0 \u0111\u1EA7u t\u01B0 "
+  answerB: "Ng\u01B0\u1EDDi lao \u0111\u1ED9ng"
   choicePanel: {fileID: 1683981497}
   doorA: {fileID: 970309212}
   doorB: {fileID: 439604716}
@@ -33209,9 +33259,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54fefdfd57776c847a37539caabf891c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  question: What is My Name
-  answerA: AAA
-  answerB: BBB
+  question: "M\u1ED9t ng\u01B0\u1EDDi th\u1EE3 l\xE0m vi\u1EC7c 8 ti\u1EBFng, 4 ti\u1EBFng
+    \u0111\u1EA7u \u0111\u1EC3 \u201Ctr\u1EA3\u201D ti\u1EC1n l\u01B0\u01A1ng, 4
+    ti\u1EBFng sau l\xE0 l\xE0m ra l\u1EE3i nhu\u1EADn. Ph\u1EA7n sau g\u1ECDi l\xE0
+    g\xEC?"
+  answerA: "Gi\xE1 tr\u1ECB th\u1EB7ng d\u01B0"
+  answerB: "Ti\u1EC1n c\xF4ng"
   choicePanel: {fileID: 1683981497}
   doorA: {fileID: 1978911596}
   doorB: {fileID: 1661159705}
@@ -41168,7 +41221,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -42964,7 +43017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24f493d9a7c859846a055faf69db6d1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionText: {fileID: 0}
+  questionText: {fileID: 1348338937}
   buttonA: {fileID: 2099504902}
   buttonB: {fileID: 65266636}
   doorA: {fileID: 0}
@@ -44147,9 +44200,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54fefdfd57776c847a37539caabf891c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  question: What is My Name
-  answerA: AAA
-  answerB: BBB
+  question: "N\u1EBFu ph\xE2n t\xEDch s\u1EF1 s\u1EE5p \u0111\u1ED5 c\u1EE7a Li\xEAn
+    X\xF4 qua l\u0103ng k\xEDnh M\xE1c, nguy\xEAn nh\xE2n c\u1ED1t l\xF5i l\xE0 g\xEC? "
+  answerA: "Thi\u1EBFu c\u1EA1nh tranh th\u1ECB tr\u01B0\u1EDDng"
+  answerB: "M\xE2u thu\u1EABn gi\u1EEFa quan h\u1EC7 s\u1EA3n xu\u1EA5t v\xE0 l\u1EF1c
+    l\u01B0\u1EE3ng s\u1EA3n xu\u1EA5t"
   choicePanel: {fileID: 1683981497}
   doorA: {fileID: 1113117421}
   doorB: {fileID: 2137726927}
@@ -53126,6 +53181,8 @@ GameObject:
   - component: {fileID: 2099504904}
   - component: {fileID: 2099504903}
   - component: {fileID: 2099504902}
+  - component: {fileID: 2099504906}
+  - component: {fileID: 2099504905}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -53235,6 +53292,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2099504900}
   m_CullTransparentMesh: 1
+--- !u!114 &2099504905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099504900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!114 &2099504906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099504900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 2
+    m_Right: 2
+    m_Top: 2
+    m_Bottom: 2
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandHeight: 0
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!4 &2099628649 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1059356913716668588, guid: 6f9e7bc8ae50c8344b59f508a338fb69, type: 3}
